@@ -1,4 +1,4 @@
-# php-argv-parser
+# php-argv-parser : phpParseArgv 
 
 php-argv-parser.php : phpParseArgv function :  PHP command line argv (argurments) parser function.
 Author: Mohammed AlShannaq (mshannaq), http://ms.per.jo
