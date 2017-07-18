@@ -49,18 +49,15 @@ function phpParseArgv($argv)
  * $argv come from the system, but if you want to overwrite it and use your custom variable as argv
  * you can use array for example
  *
-
-Array
-(
-[0] => ./php-argv-parser.php
-[1] => --interval=100
-)
+ * Array
+ * (
+ * [0] => ./php-argv-parser.php
+ * [1] => --interval=100
+ * )
 
  * but note that the item [0] of the array is ignored as the function know it is the php file name
  * example of using custom argv
-
-$custom_argv = array(0=>"./php-argv-parser.php",1=>"--interval=100");
-
+ * $custom_argv = array(0=>"./php-argv-parser.php",1=>"--interval=100");
  * then call  phpParseArgv($custom_argv)
  *
 
